@@ -47,7 +47,7 @@ url:              http://chojo.github.io/
 # Owner/author information
 owner:
   name:           Joon Ki Choi
-  avatar:         choi.jpg
+  avatar:         avatar_choi.jpg
   bio:            "interested in Software Development"
   email:          joon.ch@gmail.com
   # Social networking links used in footer. Update and remove as you like.
