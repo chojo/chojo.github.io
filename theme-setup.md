@@ -46,10 +46,10 @@ url:              http://localhost:4000
 
 # Owner/author information
 owner:
-  name:           Your Name
-  avatar:         avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
-  email:          you@email.com
+  name:           Joon Ki Choi
+  avatar:         choi.jpg
+  bio:            "interested in Software Development"
+  email:          joon.ch@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
   facebook:       
