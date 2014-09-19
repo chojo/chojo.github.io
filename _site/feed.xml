@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://chojo.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://chojo.github.io" />
-<updated>2014-09-19T16:57:06+02:00</updated>
+<updated>2014-09-19T17:24:56+02:00</updated>
 <id>http://chojo.github.io/</id>
 <author>
   <name>Joon Ki Choi</name>
@@ -48,6 +48,26 @@
 &lt;p&gt;Notice the last line of the Output: &lt;em&gt;1 runs, 1 assertions, 0 failures, 0 errors, 0 skips&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://chojo.github.io/images/minitest.png&quot; alt=&quot;Minitest_Output&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;bacon_test.rb:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;minitest/autorun&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;require_relative&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;bacon&amp;#39;&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;BaconTest&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Minitest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Test&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;test_saved&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;assert&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Bacon&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;saved?&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Our Bacon was not saved :(&amp;quot;&lt;/span&gt; 
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;bacon.rb:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Bacon&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;saved?&lt;/span&gt;
+    &lt;span class=&quot;kp&quot;&gt;true&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
 
   &lt;p&gt;&lt;a href=&quot;http://chojo.github.io/minitest/&quot;&gt;Minitest&lt;/a&gt; was originally published by Joon Ki Choi at &lt;a href=&quot;http://chojo.github.io&quot;&gt;chojo's Developer Blog&lt;/a&gt; on September 19, 2014.&lt;/p&gt;</content>
 </entry>
