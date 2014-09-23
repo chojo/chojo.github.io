@@ -6,7 +6,17 @@ describe Playnum do
   
   before(:each) do
     @calculate = Playnum.new
+    puts "Each of them!"
   end
+
+  before(:all) do
+    puts "Test starts"
+  end
+  
+  after(:all) do
+    puts "Done!"
+  end
+
   describe '#calculate_cube' do
     it 'returns a cube of a number' do
       expect(@calculate.calculate_cube(3)).to eq(27)
