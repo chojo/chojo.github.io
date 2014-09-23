@@ -36,6 +36,10 @@
 
     
     <url>
+        <loc>http://chojo.github.io/rspec/</loc>
+    </url>
+    
+    <url>
         <loc>http://chojo.github.io/minitest/</loc>
     </url>
     
