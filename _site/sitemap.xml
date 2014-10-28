@@ -36,6 +36,14 @@
 
     
     <url>
+        <loc>http://chojo.github.io/kaishi/</loc>
+    </url>
+    
+    <url>
+        <loc>http://chojo.github.io/alias/</loc>
+    </url>
+    
+    <url>
         <loc>http://chojo.github.io/rspec/</loc>
     </url>
     
