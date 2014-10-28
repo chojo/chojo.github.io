@@ -1,0 +1,43 @@
+<p>Wikipedia TDD:</p>
+
+<p><a href="http://en.wikipedia.org/wiki/Test-driven_development">Test-driven development</a> Test-driven development (TDD) is a software development process that relies on the repetition of a very short development cycle: first the developer writes an (initially failing) automated test case that defines a desired improvement or new function, then produces the minimum amount of code to pass that test, and finally refactors the new code to acceptable standards. Kent Beck, who is credited with having developed or ‘rediscovered’ the technique, stated in 2003 that TDD encourages simple designs and inspires confidence.</p>
+
+<p>Test-driven development is related to the test-first programming concepts of extreme programming, begun in 1999,but more recently has created more general interest in its own right.</p>
+
+<h3 id="rubys-minitest">Ruby’s Minitest</h3>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="nb">require</span> <span class="s1">&#39;minitest/autorun&#39;</span>
+
+<span class="k">class</span> <span class="nc">ExampleTest</span> <span class="o">&lt;</span> <span class="no">Minitest</span><span class="o">::</span><span class="no">Test</span>
+  <span class="k">def</span> <span class="nf">test_truth</span>
+    <span class="n">assert_true</span>
+  <span class="k">end</span>
+<span class="k">end</span></code></pre></div>
+
+<p>To run this file, you run <strong>ruby example_test.rb</strong> in the terminal.</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">ruby</span> <span class="n">example_test</span><span class="o">.</span><span class="n">rb</span></code></pre></div>
+
+<p>Notice the last line of the Output: <em>1 runs, 1 assertions, 0 failures, 0 errors, 0 skips</em></p>
+
+<p><img src="/images/minitest.png" alt="Minitest_Output" /></p>
+
+<p>bacon_test.rb:</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="nb">require</span> <span class="s1">&#39;minitest/autorun&#39;</span>
+<span class="n">require_relative</span> <span class="s1">&#39;bacon&#39;</span>
+
+<span class="k">class</span> <span class="nc">BaconTest</span> <span class="o">&lt;</span> <span class="no">Minitest</span><span class="o">::</span><span class="no">Test</span>
+  <span class="k">def</span> <span class="nf">test_saved</span>
+    <span class="n">assert</span> <span class="no">Bacon</span><span class="o">.</span><span class="n">saved?</span><span class="p">,</span> <span class="s2">&quot;Our Bacon was not saved :(&quot;</span> 
+  <span class="k">end</span>
+<span class="k">end</span></code></pre></div>
+
+<p>bacon.rb:</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">class</span> <span class="nc">Bacon</span>
+  <span class="k">def</span> <span class="nc">self</span><span class="o">.</span><span class="nf">saved?</span>
+    <span class="kp">true</span>
+  <span class="k">end</span>
+<span class="k">end</span></code></pre></div>
+
