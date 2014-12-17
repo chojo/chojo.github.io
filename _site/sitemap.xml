@@ -6,7 +6,23 @@
     
     
     <url>
+        <loc>http://chojo.github.io/tags/</loc>
+    </url>
+    
+    <url>
         <loc>http://chojo.github.io/404.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://chojo.github.io/posts/</loc>
+    </url>
+    
+    <url>
+        <loc>http://chojo.github.io/index.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://chojo.github.io/sitemap.xml</loc>
     </url>
     
     <url>
@@ -18,25 +34,29 @@
     </url>
     
     <url>
-        <loc>http://chojo.github.io/index.html</loc>
+        <loc>http://chojo.github.io/theme-setup/</loc>
     </url>
     
     <url>
-        <loc>http://chojo.github.io/posts/</loc>
-    </url>
-    
-    <url>
-        <loc>http://chojo.github.io/sitemap.xml</loc>
-    </url>
-    
-    <url>
-        <loc>http://chojo.github.io/tags/</loc>
+        <loc>http://chojo.github.io/page2/index.html</loc>
     </url>
     
 
     
     <url>
+        <loc>http://chojo.github.io/elementary-os/</loc>
+    </url>
+    
+    <url>
+        <loc>http://chojo.github.io/learnable-programming/</loc>
+    </url>
+    
+    <url>
         <loc>http://chojo.github.io/kaishi/</loc>
+    </url>
+    
+    <url>
+        <loc>http://chojo.github.io/oop/</loc>
     </url>
     
     <url>

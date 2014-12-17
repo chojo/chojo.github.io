@@ -5,25 +5,25 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Minitest &#8211; chojo's Developer Blog</title>
-<meta name="description" content="Easy TDD with Minitest">
-<meta name="keywords" content="Ruby, Minitest, TDD">
+<title>Learnable Programming &#8211; chojo's Developer Blog</title>
+<meta name="description" content="Designing a programming system for understanding programs">
+<meta name="keywords" content="learning">
 
 
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Minitest">
-<meta property="og:description" content="Easy TDD with Minitest">
-<meta property="og:url" content="http://chojo.github.io/minitest/">
+<meta property="og:title" content="Learnable Programming">
+<meta property="og:description" content="Designing a programming system for understanding programs">
+<meta property="og:url" content="http://chojo.github.io/learnable-programming/">
 <meta property="og:site_name" content="chojo's Developer Blog">
 
 
 
 
 
-<link rel="canonical" href="http://chojo.github.io/minitest/">
+<link rel="canonical" href="http://chojo.github.io/learnable-programming/">
 <link href="http://chojo.github.io/feed.xml" type="application/atom+xml" rel="alternate" title="chojo's Developer Blog Feed">
 <link rel="author" href="https://google.com/+JoonKiChoi?rel=author">
 
@@ -108,7 +108,7 @@
 <div class="entry-header">
   <div class="image-credit">Image source: <a href="http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/">dargadgetz</a></div><!-- /.image-credit -->
   <div class="entry-image">
-    <img src="http://chojo.github.io/images/abstract-10.jpg" alt="Minitest">
+    <img src="http://chojo.github.io/images/abstract-10.jpg" alt="Learnable Programming">
   </div><!-- /.entry-image -->
 </div><!-- /.entry-header -->
 
@@ -118,9 +118,9 @@
     <header class="header-title">
       <div class="header-title-wrap">
         
-          <h1 class="entry-title"><a href="http://chojo.github.io/minitest/" rel="bookmark" title="Minitest">Minitest</a></h1>
+          <h1 class="entry-title"><a href="http://chojo.github.io/learnable-programming/" rel="bookmark" title="Learnable Programming">Learnable Programming</a></h1>
         
-        <h2>September 19, 2014</h2>
+        <h2>October 30, 2014</h2>
         
         <p class="entry-reading-time">
           <i class="fa fa-clock-o"></i>
@@ -131,64 +131,22 @@
       </div><!-- /.header-title-wrap -->
     </header>
     <div class="entry-content">
-      <p>Wikipedia TDD:</p>
+      <p>Designing a programming system for understanding programs</p>
 
-<p><a href="http://en.wikipedia.org/wiki/Test-driven_development">Test-driven development</a> Test-driven development (TDD) is a software development process that relies on the repetition of a very short development cycle: first the developer writes an (initially failing) automated test case that defines a desired improvement or new function, then produces the minimum amount of code to pass that test, and finally refactors the new code to acceptable standards. Kent Beck, who is credited with having developed or ‘rediscovered’ the technique, stated in 2003 that TDD encourages simple designs and inspires confidence.</p>
+<p>Here’s a trick question: How do we get people to understand programming?</p>
 
-<p>Test-driven development is related to the test-first programming concepts of extreme programming, begun in 1999,but more recently has created more general interest in its own right.</p>
-
-<h3 id="rubys-minitest">Ruby’s Minitest</h3>
-
-<div class="highlight"><pre><code class="ruby"><span class="nb">require</span> <span class="s1">&#39;minitest/autorun&#39;</span>
-
-<span class="k">class</span> <span class="nc">ExampleTest</span> <span class="o">&lt;</span> <span class="no">Minitest</span><span class="o">::</span><span class="no">Test</span>
-  <span class="k">def</span> <span class="nf">test_truth</span>
-    <span class="n">assert_true</span>
-  <span class="k">end</span>
-<span class="k">end</span>
-</code></pre></div>
-
-<p>To run this file, you run <strong>ruby example_test.rb</strong> in the terminal.</p>
-
-<div class="highlight"><pre><code class="ruby"><span class="n">ruby</span> <span class="n">example_test</span><span class="o">.</span><span class="n">rb</span>
-</code></pre></div>
-
-<p>Notice the last line of the Output: <em>1 runs, 1 assertions, 0 failures, 0 errors, 0 skips</em></p>
-
-<p><img src="http://chojo.github.io/images/minitest.png" alt="Minitest_Output" /></p>
-
-<p>bacon_test.rb:</p>
-
-<div class="highlight"><pre><code class="ruby"><span class="nb">require</span> <span class="s1">&#39;minitest/autorun&#39;</span>
-<span class="n">require_relative</span> <span class="s1">&#39;bacon&#39;</span>
-
-<span class="k">class</span> <span class="nc">BaconTest</span> <span class="o">&lt;</span> <span class="no">Minitest</span><span class="o">::</span><span class="no">Test</span>
-  <span class="k">def</span> <span class="nf">test_saved</span>
-    <span class="n">assert</span> <span class="no">Bacon</span><span class="o">.</span><span class="n">saved?</span><span class="p">,</span> <span class="s2">&quot;Our Bacon was not saved :(&quot;</span> 
-  <span class="k">end</span>
-<span class="k">end</span>
-</code></pre></div>
-
-<p>bacon.rb:</p>
-
-<div class="highlight"><pre><code class="ruby"><span class="k">class</span> <span class="nc">Bacon</span>
-  <span class="k">def</span> <span class="nc">self</span><span class="o">.</span><span class="nf">saved?</span>
-    <span class="kp">true</span>
-  <span class="k">end</span>
-<span class="k">end</span>
-</code></pre></div>
-
+<p>Read the full Blog Post of Bret Victor: <a href="http://worrydream.com/#!/LearnableProgramming">Learnable Programming</a> </p>
 
       <footer class="entry-meta">
-        <span class="entry-tags"><a href="http://chojo.github.io/tags/#Ruby" title="Pages tagged Ruby" class="tag">Ruby</a><a href="http://chojo.github.io/tags/#Minitest" title="Pages tagged Minitest" class="tag">Minitest</a><a href="http://chojo.github.io/tags/#TDD" title="Pages tagged TDD" class="tag">TDD</a></span>
-        <span><a href="http://chojo.github.io/minitest/" rel="bookmark" title="Minitest">Minitest</a> was published on <span class="entry-date date published updated"><time datetime="2014-09-19T00:00:00+02:00">September 19, 2014</time></span></span>
-        (revised: <span class="entry-date date modified"><time datetime="2014-09-19">09/19/2014</time></span>)
+        <span class="entry-tags"><a href="http://chojo.github.io/tags/#learning" title="Pages tagged learning" class="tag">learning</a></span>
+        <span><a href="http://chojo.github.io/learnable-programming/" rel="bookmark" title="Learnable Programming">Learnable Programming</a> was published on <span class="entry-date date published updated"><time datetime="2014-10-30T00:00:00+01:00">October 30, 2014</time></span></span>
+        (revised: <span class="entry-date date modified"><time datetime="2014-10-30">10/30/2014</time></span>)
         <span class="author vcard"><span class="fn"><a href="http://chojo.github.io/about/" title="About Joon Ki Choi">Joon Ki Choi</a></span></span>
         <div class="social-share">
           <ul class="socialcount socialcount-small inline-list">
-            <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://chojo.github.io/minitest/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
-            <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://chojo.github.io/minitest/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
-            <li class="googleplus"><a href="https://plus.google.com/share?url=http://chojo.github.io/minitest/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+            <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://chojo.github.io/learnable-programming/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+            <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://chojo.github.io/learnable-programming/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+            <li class="googleplus"><a href="https://plus.google.com/share?url=http://chojo.github.io/learnable-programming/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
           </ul>
         </div><!-- /.social-share -->
       </footer>
@@ -198,7 +156,7 @@
     <div class="read-more">
       
         <div class="read-more-header">
-          <a href="http://chojo.github.io" class="read-more-btn">Read More</a>
+          <a href="http://chojo.github.io/kaishi/" class="read-more-btn">Read More</a>
         </div><!-- /.read-more-header -->
         <div class="read-more-content">
           <h3><a href="http://chojo.github.io/elementary-os/" title="Elementary OS">Elementary OS</a></h3>
@@ -208,13 +166,13 @@
       <div class="read-more-list">
         
           <div class="list-item">
-            <h4><a href="http://chojo.github.io/learnable-programming/" title="Learnable Programming">Learnable Programming</a></h4>
-            <span>Published on October 30, 2014</span>
+            <h4><a href="http://chojo.github.io/kaishi/" title="Kaishi - Linux/Mac OS - Script for Rails Development Environment">Kaishi - Linux/Mac OS - Script for Rails Development Environment</a></h4>
+            <span>Published on October 28, 2014</span>
           </div><!-- /.list-item -->
         
           <div class="list-item">
-            <h4><a href="http://chojo.github.io/kaishi/" title="Kaishi - Linux/Mac OS - Script for Rails Development Environment">Kaishi - Linux/Mac OS - Script for Rails Development Environment</a></h4>
-            <span>Published on October 28, 2014</span>
+            <h4><a href="http://chojo.github.io/oop/" title="The Problem with OOP">The Problem with OOP</a></h4>
+            <span>Published on October 19, 2014</span>
           </div><!-- /.list-item -->
         
       </div><!-- /.read-more-list -->
