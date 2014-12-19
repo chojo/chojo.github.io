@@ -44,6 +44,10 @@
 
     
     <url>
+        <loc>http://chojo.github.io/node-grunt-bower-yeoman/</loc>
+    </url>
+    
+    <url>
         <loc>http://chojo.github.io/elementary-os/</loc>
     </url>
     
