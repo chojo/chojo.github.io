@@ -1,29 +1,16 @@
 ---
 layout: post
-title: Install Node and NPM without sudo
-description: "Use one of these techniques to install node and npm without having
-to sudo."
-modified: 2014-11-22
-tags: [Linux]
+title: Redis with Rails
+description: "Introduction to Using Redis with Rails"
+modified: 2014-12-22
+tags: [Rails, Redis]
 image:
-  feature: abstract-5.jpg
+  feature: abstract-2.jpg
   credit: dargadgetz
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 comments: true
 share: true  
 ---
-
-Recently i stuck at an error:"npm ERR! Error: EACCES, mkdir..." and after many
-attempts to fix this bug i decided to install node and npm new. This time
-without having to sudo:
-[Node.js installation](https://gist.github.com/isaacs/579814) 
-
-I use zsh and had to make small modifications for the second one (only-git-all-the-way.sh) :
-{% highlight ruby %}
-
-echo 'export PATH=$HOME/node/:$PATH' >> ~/.zshrc.local
-. ~/.zshrc.local
-
-
-{% endhighlight %}
+Great Tutorial for using Redis with Rails:
+[Redis-Rails Tutorial](http://www.sitepoint.com/introduction-to-using-redis-with-rails/) 
 
