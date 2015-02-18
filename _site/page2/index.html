@@ -124,6 +124,31 @@
 <article class="hentry">
   <header>
     <div class="entry-meta">
+      <span class="entry-date date published updated"><time datetime="2014-10-28T00:00:00+01:00"><a href="http://chojo.github.io/kaishi/">October 28, 2014</a></time></span><span class="author vcard"><span class="fn"><a href="http://chojo.github.io/about/" title="About Joon Ki Choi">Joon Ki Choi</a></span></span>
+      
+      <span class="entry-reading-time pull-right">
+        <i class="fa fa-clock-o"></i>
+        
+        Reading time ~1 minute
+      </span><!-- /.entry-reading-time -->
+      
+    </div><!-- /.entry-meta -->
+    
+      <h1 class="entry-title"><a href="http://chojo.github.io/kaishi/" rel="bookmark" title="Kaishi - Linux/Mac OS - Script for Rails Development Environment" itemprop="url">Kaishi - Linux/Mac OS - Script for Rails Development Environment</a></h1>
+    
+  </header>
+  <div class="entry-content">
+    <p>Thoughtbots Laptop-Script funktioniert jetzt nur noch fuer Mac OS X und  leider nicht mehr unter Linux.
+Daher habe ich nach einer Alternative gesucht und bin auf Kaishi gestossen:</p>
+
+<p>Github: <a href="https://github.com/IcaliaLabs/kaishi/tree/master">Kaishi Link</a> </p>
+
+  </div><!-- /.entry-content -->
+</article><!-- /.hentry -->
+
+<article class="hentry">
+  <header>
+    <div class="entry-meta">
       <span class="entry-date date published updated"><time datetime="2014-10-19T00:00:00+02:00"><a href="http://chojo.github.io/oop/">October 19, 2014</a></time></span><span class="author vcard"><span class="fn"><a href="http://chojo.github.io/about/" title="About Joon Ki Choi">Joon Ki Choi</a></span></span>
       
       <span class="entry-reading-time pull-right">
@@ -327,117 +352,6 @@ domain-specific language (DSL) and resembles a natural language specification.</
     <span class="kp">true</span>
   <span class="k">end</span>
 <span class="k">end</span>
-</code></pre></div>
-
-
-  </div><!-- /.entry-content -->
-</article><!-- /.hentry -->
-
-<article class="hentry">
-  <header>
-    <div class="entry-meta">
-      <span class="entry-date date published updated"><time datetime="2014-02-16T00:00:00+01:00"><a href="http://chojo.github.io/d3js-external-data/">February 16, 2014</a></time></span><span class="author vcard"><span class="fn"><a href="http://chojo.github.io/about/" title="About Joon Ki Choi">Joon Ki Choi</a></span></span>
-      
-      <span class="entry-reading-time pull-right">
-        <i class="fa fa-clock-o"></i>
-        
-        Reading time ~2 minutes
-      </span><!-- /.entry-reading-time -->
-      
-    </div><!-- /.entry-meta -->
-    
-      <h1 class="entry-title"><a href="http://chojo.github.io/d3js-external-data/" rel="bookmark" title="D3js External Data" itemprop="url">D3js External Data</a></h1>
-    
-  </header>
-  <div class="entry-content">
-    <hr />
-<p>layout: post
-title: D3.js Data Visualization
-description: “Data Visualization with external Data Sources”
-modified: 2015-02-16
-tags: [D3js]
-image:
-  feature: abstract-2.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
-comments: true
-share: true<br />
-—so
-### D3.js
-<a href="http://d3js.org/">D3.js Homepage</a> 
-D3.js is a JavaScript library for manipulating documents based on data. D3 helps you bring data to life using HTML, SVG, and CSS. D3’s emphasis on web standards gives you the full capabilities of modern browsers without tying yourself to a proprietary framework, combining powerful visualization components and a data-driven approach to DOM manipulation.</p>
-
-<h3 id="external-data-sources">External Data Sources</h3>
-<p>W
-* File based: CSV, TSV, JSON, XML, Text, HTML</p>
-
-<ul>
-  <li>Dynamic: GET, POST, AJAX (xhr)</li>
-</ul>
-
-<h3 id="working-with-csv-data">Working with CSV Data</h3>
-
-<p>MonthlySales.csv</p>
-
-<div class="highlight"><pre><code class="html">month, sales
-20130101, 38
-20130201, 28
-20130301, 18
-20130401, 38
-20130501, 48
-20130601, 68
-20130701, 38
-20130801, 78
-</code></pre></div>
-
-<h3 id="html">HTML</h3>
-
-<p>working-with-csv.html</p>
-
-<div class="highlight"><pre><code class="html"><span class="cp">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;</span>
-<span class="nt">&lt;html&gt;</span>
-  <span class="nt">&lt;head&gt;</span>
-    <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">&quot;http://d3js.org/d3.v3.min.js&quot;</span> <span class="na">charset=</span><span class="s">&quot;utf-8&quot;</span><span class="nt">&gt;&lt;/script&gt;</span>
-  <span class="nt">&lt;/head&gt;</span>
-  <span class="nt">&lt;body&gt;</span>
-    <span class="nt">&lt;script&gt;</span>      
-      <span class="kd">var</span> <span class="nx">h</span> <span class="o">=</span> <span class="mi">100</span><span class="p">;</span>
-      <span class="kd">var</span> <span class="nx">w</span> <span class="o">=</span> <span class="mi">400</span><span class="p">;</span>
-      <span class="kd">var</span> <span class="nx">ds</span><span class="p">;</span> <span class="c1">// global var for data</span>
-      
-      <span class="kd">function</span> <span class="nx">buildLine</span><span class="p">()</span> <span class="p">{</span>
-      
-        <span class="kd">var</span> <span class="nx">lineFun</span> <span class="o">=</span> <span class="nx">d3</span><span class="p">.</span><span class="nx">svg</span><span class="p">.</span><span class="nx">line</span><span class="p">()</span>
-                        <span class="p">.</span><span class="nx">x</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">d</span><span class="p">)</span> <span class="p">{</span> <span class="k">return</span> <span class="p">((</span><span class="nx">d</span><span class="p">.</span><span class="nx">month</span><span class="o">-</span><span class="mi">20130001</span><span class="p">)</span><span class="o">/</span><span class="mf">3.25</span><span class="p">);</span> <span class="p">})</span>
-                        <span class="p">.</span><span class="nx">y</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">d</span><span class="p">)</span> <span class="p">{</span> <span class="k">return</span> <span class="nx">h</span><span class="o">-</span><span class="nx">d</span><span class="p">.</span><span class="nx">sales</span><span class="p">;</span> <span class="p">})</span>
-                        <span class="p">.</span><span class="nx">interpolate</span><span class="p">(</span><span class="s2">&quot;linear&quot;</span><span class="p">);</span>
-      
-        <span class="kd">var</span> <span class="nx">svg</span> <span class="o">=</span> <span class="nx">d3</span><span class="p">.</span><span class="nx">select</span><span class="p">(</span><span class="s2">&quot;body&quot;</span><span class="p">).</span><span class="nx">append</span><span class="p">(</span><span class="s2">&quot;svg&quot;</span><span class="p">).</span><span class="nx">attr</span><span class="p">({</span> <span class="nx">width</span><span class="o">:</span><span class="nx">w</span><span class="p">,</span> <span class="nx">height</span><span class="o">:</span><span class="nx">h</span> <span class="p">});</span>
-      
-        <span class="kd">var</span> <span class="nx">viz</span> <span class="o">=</span> <span class="nx">svg</span><span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="s2">&quot;path&quot;</span><span class="p">)</span>
-                     <span class="p">.</span><span class="nx">attr</span><span class="p">({</span>
-                       <span class="nx">d</span><span class="o">:</span> <span class="nx">lineFun</span><span class="p">(</span><span class="nx">ds</span><span class="p">),</span>
-                       <span class="s2">&quot;stroke&quot;</span> <span class="o">:</span> <span class="s2">&quot;purple&quot;</span><span class="p">,</span>
-                       <span class="s2">&quot;stroke-width&quot;</span><span class="o">:</span> <span class="mi">2</span><span class="p">,</span>
-                       <span class="s2">&quot;fill&quot;</span><span class="o">:</span> <span class="s2">&quot;none&quot;</span>
-                     <span class="p">});</span>  
-      <span class="p">}</span>
-      
-      <span class="nx">d3</span><span class="p">.</span><span class="nx">csv</span><span class="p">(</span><span class="s2">&quot;MonthlySales.csv&quot;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">error</span><span class="p">,</span> <span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
-        <span class="k">if</span><span class="p">(</span><span class="nx">error</span><span class="p">)</span> <span class="p">{</span>
-          <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">error</span><span class="p">);</span>
-        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-          <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">data</span><span class="p">);</span>
-          <span class="nx">ds</span> <span class="o">=</span> <span class="nx">data</span><span class="p">;</span>
-        <span class="p">}</span>
-
-        <span class="nx">buildLine</span><span class="p">();</span>
-      
-      <span class="p">});</span>
-      
-    <span class="nt">&lt;/script&gt;</span>
-  <span class="nt">&lt;/body&gt;</span>
-<span class="nt">&lt;/html&gt;</span>
 </code></pre></div>
 
 
