@@ -1,5 +1,5 @@
-title:            chojo's Development Blog
-description:      some notes about web development
+title:            chojo's Developer Blog
+description:      some code katas and learnings
 disqus_shortname: 
 reading_time:     true
 words_per_minute: 200
@@ -10,7 +10,7 @@ url:              http://chojo.github.io
 owner:
   name:           Joon Ki Choi
   avatar:         avatar_choi.jpg
-  bio:            
+  bio:            "Rails Developer"
   email:          joon.ch@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
@@ -23,7 +23,7 @@ owner:
   tumblr:         
   # For Google Authorship https://plus.google.com/authorship
   # google plus id, include the '+', eg +mmistakes
-  google_plus:    +yourid
+  google_plus:    +JoonKiChoi
 
 # Background image to be tiled on all pages
 background: 
@@ -36,12 +36,12 @@ bing_verify:
 
 # Links to include in top navigation
 # For external links add external: true
-# links:
-#  - title: Theme Setup
-#    url: /theme-setup
-#  - title: External Link
-#    url: http://mademistakes.com
-#    external: true
+links:
+  - title: Theme Setup
+    url: /theme-setup
+  - title: External Link
+    url: 
+    external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/Berlin
