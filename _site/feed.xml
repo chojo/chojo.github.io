@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-<title type="text">chojo's Developer Blog</title>
+<title type="text">chojo's Development Blog</title>
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://chojo.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://chojo.github.io" />
-<updated>2015-02-18T10:29:41+01:00</updated>
+<updated>2015-02-18T10:36:39+01:00</updated>
 <id>http://chojo.github.io/</id>
 <author>
   <name>Joon Ki Choi</name>
@@ -106,7 +106,7 @@ D3.js is a JavaScript library for manipulating documents based on data. D3 helps
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
-  &lt;p&gt;&lt;a href=&quot;http://chojo.github.io/d3js-external-data/&quot;&gt;D3.js Data Visualization&lt;/a&gt; was originally published by Joon Ki Choi at &lt;a href=&quot;http://chojo.github.io&quot;&gt;chojo's Developer Blog&lt;/a&gt; on February 16, 2015.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://chojo.github.io/d3js-external-data/&quot;&gt;D3.js Data Visualization&lt;/a&gt; was originally published by Joon Ki Choi at &lt;a href=&quot;http://chojo.github.io&quot;&gt;chojo's Development Blog&lt;/a&gt; on February 16, 2015.&lt;/p&gt;</content>
 </entry>
 
 
@@ -127,7 +127,7 @@ D3.js is a JavaScript library for manipulating documents based on data. D3 helps
 &lt;p&gt;&lt;a href=&quot;http://juristr.com/blog/2014/08/node-grunt-yeoman-bower/&quot;&gt;Node, Grunt, Bower and Yeoman&lt;/a&gt; &lt;/p&gt;
 
 
-  &lt;p&gt;&lt;a href=&quot;http://chojo.github.io/node-grunt-bower-yeoman/&quot;&gt;Node, Grunt, Bower and Yeoman&lt;/a&gt; was originally published by Joon Ki Choi at &lt;a href=&quot;http://chojo.github.io&quot;&gt;chojo's Developer Blog&lt;/a&gt; on December 19, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://chojo.github.io/node-grunt-bower-yeoman/&quot;&gt;Node, Grunt, Bower and Yeoman&lt;/a&gt; was originally published by Joon Ki Choi at &lt;a href=&quot;http://chojo.github.io&quot;&gt;chojo's Development Blog&lt;/a&gt; on December 19, 2014.&lt;/p&gt;</content>
 </entry>
 
 
@@ -155,7 +155,7 @@ without having to sudo:
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
-  &lt;p&gt;&lt;a href=&quot;http://chojo.github.io/install-node/&quot;&gt;Install Node and NPM without sudo&lt;/a&gt; was originally published by Joon Ki Choi at &lt;a href=&quot;http://chojo.github.io&quot;&gt;chojo's Developer Blog&lt;/a&gt; on December 19, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://chojo.github.io/install-node/&quot;&gt;Install Node and NPM without sudo&lt;/a&gt; was originally published by Joon Ki Choi at &lt;a href=&quot;http://chojo.github.io&quot;&gt;chojo's Development Blog&lt;/a&gt; on December 19, 2014.&lt;/p&gt;</content>
 </entry>
 
 
@@ -179,7 +179,7 @@ without having to sudo:
 
 &lt;p&gt;&lt;img src=&quot;http://chojo.github.io/images/eos.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://chojo.github.io/elementary-os/&quot;&gt;Elementary OS&lt;/a&gt; was originally published by Joon Ki Choi at &lt;a href=&quot;http://chojo.github.io&quot;&gt;chojo's Developer Blog&lt;/a&gt; on December 10, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://chojo.github.io/elementary-os/&quot;&gt;Elementary OS&lt;/a&gt; was originally published by Joon Ki Choi at &lt;a href=&quot;http://chojo.github.io&quot;&gt;chojo's Development Blog&lt;/a&gt; on December 10, 2014.&lt;/p&gt;</content>
 </entry>
 
 
@@ -201,7 +201,7 @@ without having to sudo:
 
 &lt;p&gt;Read the full Blog Post of Bret Victor: &lt;a href=&quot;http://worrydream.com/#!/LearnableProgramming&quot;&gt;Learnable Programming&lt;/a&gt; &lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://chojo.github.io/learnable-programming/&quot;&gt;Learnable Programming&lt;/a&gt; was originally published by Joon Ki Choi at &lt;a href=&quot;http://chojo.github.io&quot;&gt;chojo's Developer Blog&lt;/a&gt; on October 30, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://chojo.github.io/learnable-programming/&quot;&gt;Learnable Programming&lt;/a&gt; was originally published by Joon Ki Choi at &lt;a href=&quot;http://chojo.github.io&quot;&gt;chojo's Development Blog&lt;/a&gt; on October 30, 2014.&lt;/p&gt;</content>
 </entry>
 
 
@@ -222,7 +222,7 @@ Daher habe ich nach einer Alternative gesucht und bin auf Kaishi gestossen:&lt;/
 
 &lt;p&gt;Github: &lt;a href=&quot;https://github.com/IcaliaLabs/kaishi/tree/master&quot;&gt;Kaishi Link&lt;/a&gt; &lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://chojo.github.io/kaishi/&quot;&gt;Kaishi - Linux/Mac OS - Script for Rails Development Environment&lt;/a&gt; was originally published by Joon Ki Choi at &lt;a href=&quot;http://chojo.github.io&quot;&gt;chojo's Developer Blog&lt;/a&gt; on October 28, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://chojo.github.io/kaishi/&quot;&gt;Kaishi - Linux/Mac OS - Script for Rails Development Environment&lt;/a&gt; was originally published by Joon Ki Choi at &lt;a href=&quot;http://chojo.github.io&quot;&gt;chojo's Development Blog&lt;/a&gt; on October 28, 2014.&lt;/p&gt;</content>
 </entry>
 
 
@@ -242,7 +242,7 @@ Daher habe ich nach einer Alternative gesucht und bin auf Kaishi gestossen:&lt;/
 
 &lt;p&gt;Joe Armstrong, interviewed in Coders at Work&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://chojo.github.io/oop/&quot;&gt;The Problem with OOP&lt;/a&gt; was originally published by Joon Ki Choi at &lt;a href=&quot;http://chojo.github.io&quot;&gt;chojo's Developer Blog&lt;/a&gt; on October 19, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://chojo.github.io/oop/&quot;&gt;The Problem with OOP&lt;/a&gt; was originally published by Joon Ki Choi at &lt;a href=&quot;http://chojo.github.io&quot;&gt;chojo's Development Blog&lt;/a&gt; on October 19, 2014.&lt;/p&gt;</content>
 </entry>
 
 
@@ -277,7 +277,7 @@ Daher habe ich nach einer Alternative gesucht und bin auf Kaishi gestossen:&lt;/
 &lt;p&gt;&lt;a href=&quot;http://ruby.about.com/od/qa/ss/What-Is-The-Difference-Between-Alias-And-Alias_method.htm&quot;&gt;alias vs. alias_method&lt;/a&gt;&lt;/p&gt;
 
 
-  &lt;p&gt;&lt;a href=&quot;http://chojo.github.io/alias/&quot;&gt;alias&lt;/a&gt; was originally published by Joon Ki Choi at &lt;a href=&quot;http://chojo.github.io&quot;&gt;chojo's Developer Blog&lt;/a&gt; on September 30, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://chojo.github.io/alias/&quot;&gt;alias&lt;/a&gt; was originally published by Joon Ki Choi at &lt;a href=&quot;http://chojo.github.io&quot;&gt;chojo's Development Blog&lt;/a&gt; on September 30, 2014.&lt;/p&gt;</content>
 </entry>
 
 
@@ -354,7 +354,7 @@ domain-specific language (DSL) and resembles a natural language specification.&l
 
 &lt;p&gt;&lt;img src=&quot;http://chojo.github.io/images/rspec1.png&quot; alt=&quot;RSpec_Output&quot; /&gt;&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://chojo.github.io/rspec/&quot;&gt;RSpec&lt;/a&gt; was originally published by Joon Ki Choi at &lt;a href=&quot;http://chojo.github.io&quot;&gt;chojo's Developer Blog&lt;/a&gt; on September 22, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://chojo.github.io/rspec/&quot;&gt;RSpec&lt;/a&gt; was originally published by Joon Ki Choi at &lt;a href=&quot;http://chojo.github.io&quot;&gt;chojo's Development Blog&lt;/a&gt; on September 22, 2014.&lt;/p&gt;</content>
 </entry>
 
 
@@ -418,7 +418,7 @@ domain-specific language (DSL) and resembles a natural language specification.&l
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
-  &lt;p&gt;&lt;a href=&quot;http://chojo.github.io/minitest/&quot;&gt;Minitest&lt;/a&gt; was originally published by Joon Ki Choi at &lt;a href=&quot;http://chojo.github.io&quot;&gt;chojo's Developer Blog&lt;/a&gt; on September 19, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://chojo.github.io/minitest/&quot;&gt;Minitest&lt;/a&gt; was originally published by Joon Ki Choi at &lt;a href=&quot;http://chojo.github.io&quot;&gt;chojo's Development Blog&lt;/a&gt; on September 19, 2014.&lt;/p&gt;</content>
 </entry>
 
 </feed>
