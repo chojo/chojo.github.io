@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://chojo.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://chojo.github.io" />
-<updated>2015-02-18T10:28:03+01:00</updated>
+<updated>2015-02-18T10:29:07+01:00</updated>
 <id>http://chojo.github.io/</id>
 <author>
   <name>Joon Ki Choi</name>
@@ -30,11 +30,14 @@
 D3.js is a JavaScript library for manipulating documents based on data. D3 helps you bring data to life using HTML, SVG, and CSS. D3’s emphasis on web standards gives you the full capabilities of modern browsers without tying yourself to a proprietary framework, combining powerful visualization components and a data-driven approach to DOM manipulation.&lt;/p&gt;
 
 &lt;h3 id=&quot;external-data-sources&quot;&gt;External Data Sources&lt;/h3&gt;
-&lt;p&gt;W
-* File based: CSV, TSV, JSON, XML, Text, HTML&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Dynamic: GET, POST, AJAX (xhr)&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;File based: CSV, TSV, JSON, XML, Text, HTML&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Dynamic: GET, POST, AJAX (xhr)&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;working-with-csv-data&quot;&gt;Working with CSV Data&lt;/h3&gt;
