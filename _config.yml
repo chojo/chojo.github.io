@@ -13,9 +13,9 @@ owner:
   bio:            
   email:          joon.ch@gmail.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        
+  twitter:        JoonKiChoi
   facebook:       
-  github:         
+  github:         chojo
   stackexchange:  
   linkedin:       
   instagram:      
@@ -23,7 +23,7 @@ owner:
   tumblr:         
   # For Google Authorship https://plus.google.com/authorship
   # google plus id, include the '+', eg +mmistakes
-  google_plus:    +yourid
+  google_plus:    +JoonKiChoi
 
 # Background image to be tiled on all pages
 background: 
