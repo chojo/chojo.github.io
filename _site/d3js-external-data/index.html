@@ -5,25 +5,25 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>The Problem with OOP &#8211; chojo's Developer Blog</title>
-<meta name="description" content="The Problem with OOP">
-<meta name="keywords" content="oop">
+<title>D3.js Data Visualization &#8211; chojo's Developer Blog</title>
+<meta name="description" content="Data Visualization with external Data Sources">
+<meta name="keywords" content="D3js">
 
 
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="The Problem with OOP">
-<meta property="og:description" content="The Problem with OOP">
-<meta property="og:url" content="http://chojo.github.io/oop/">
+<meta property="og:title" content="D3.js Data Visualization">
+<meta property="og:description" content="Data Visualization with external Data Sources">
+<meta property="og:url" content="http://chojo.github.io/d3js-external-data/">
 <meta property="og:site_name" content="chojo's Developer Blog">
 
 
 
 
 
-<link rel="canonical" href="http://chojo.github.io/oop/">
+<link rel="canonical" href="http://chojo.github.io/d3js-external-data/">
 <link href="http://chojo.github.io/feed.xml" type="application/atom+xml" rel="alternate" title="chojo's Developer Blog Feed">
 <link rel="author" href="https://google.com/+JoonKiChoi?rel=author">
 
@@ -108,7 +108,7 @@
 <div class="entry-header">
   <div class="image-credit">Image source: <a href="http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/">dargadgetz</a></div><!-- /.image-credit -->
   <div class="entry-image">
-    <img src="http://chojo.github.io/images/abstract-10.jpg" alt="The Problem with OOP">
+    <img src="http://chojo.github.io/images/abstract-2.jpg" alt="D3.js Data Visualization">
   </div><!-- /.entry-image -->
 </div><!-- /.entry-header -->
 
@@ -118,9 +118,9 @@
     <header class="header-title">
       <div class="header-title-wrap">
         
-          <h1 class="entry-title"><a href="http://chojo.github.io/oop/" rel="bookmark" title="The Problem with OOP">The Problem with OOP</a></h1>
+          <h1 class="entry-title"><a href="http://chojo.github.io/d3js-external-data/" rel="bookmark" title="D3.js Data Visualization">D3.js Data Visualization</a></h1>
         
-        <h2>October 19, 2014</h2>
+        <h2>February 16, 2014</h2>
         
         <p class="entry-reading-time">
           <i class="fa fa-clock-o"></i>
@@ -131,20 +131,63 @@
       </div><!-- /.header-title-wrap -->
     </header>
     <div class="entry-content">
-      <p>“The problem with object-oriented languages is they’ve got all this implicit environment that they carry around with them. You wanted a banana but what you got was a gorilla holding the banana and the entire jungle.”</p>
+      <h3 id="d3js">D3.js</h3>
+<p><a href="http://d3js.org/">D3.js Homepage</a> 
+D3.js is a JavaScript library for manipulating documents based on data. D3 helps you bring data to life using HTML, SVG, and CSS. D3’s emphasis on web standards gives you the full capabilities of modern browsers without tying yourself to a proprietary framework, combining powerful visualization components and a data-driven approach to DOM manipulation.</p>
 
-<p>Joe Armstrong, interviewed in Coders at Work</p>
+<h3 id="external-data-sources">External Data Sources</h3>
+
+<ul>
+  <li>
+    <p>File based: CSV, TSV, JSON, XML, Text, HTML</p>
+  </li>
+  <li>
+    <p>Dynamic: GET, POST, AJAX (xhr)</p>
+  </li>
+</ul>
+
+<h3 id="working-with-csv-data">Working with CSV Data</h3>
+
+<p>MonthlySales.csv</p>
+
+<div class="highlight"><pre><code class="html">month, sales
+20130101, 38
+20130201, 28
+20130301, 18
+20130401, 38
+20130501, 48
+20130601, 68
+20130701, 38
+20130801, 78
+</code></pre></div>
+
+<h3 id="html">HTML</h3>
+
+<p>hello-world.html</p>
+
+<div class="highlight"><pre><code class="html"><span class="cp">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+  <span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;title&gt;</span>Myspace<span class="nt">&lt;/title&gt;</span>
+  <span class="nt">&lt;/head&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;h1&gt;</span>I am the international space station<span class="nt">&lt;/h1&gt;</span>
+    <span class="nt">&lt;p&gt;</span>Sign my guestbook<span class="nt">&lt;/p&gt;</span>
+  <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div>
+
 
       <footer class="entry-meta">
-        <span class="entry-tags"><a href="http://chojo.github.io/tags/#oop" title="Pages tagged oop" class="tag">oop</a></span>
-        <span><a href="http://chojo.github.io/oop/" rel="bookmark" title="The Problem with OOP">The Problem with OOP</a> was published on <span class="entry-date date published updated"><time datetime="2014-10-19T00:00:00+02:00">October 19, 2014</time></span></span>
-        (revised: <span class="entry-date date modified"><time datetime="2014-10-28">10/28/2014</time></span>)
+        <span class="entry-tags"><a href="http://chojo.github.io/tags/#D3js" title="Pages tagged D3js" class="tag">D3js</a></span>
+        <span><a href="http://chojo.github.io/d3js-external-data/" rel="bookmark" title="D3.js Data Visualization">D3.js Data Visualization</a> was published on <span class="entry-date date published updated"><time datetime="2014-02-16T00:00:00+01:00">February 16, 2014</time></span></span>
+        (revised: <span class="entry-date date modified"><time datetime="2015-02-16">02/16/2015</time></span>)
         <span class="author vcard"><span class="fn"><a href="http://chojo.github.io/about/" title="About Joon Ki Choi">Joon Ki Choi</a></span></span>
         <div class="social-share">
           <ul class="socialcount socialcount-small inline-list">
-            <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://chojo.github.io/oop/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
-            <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://chojo.github.io/oop/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
-            <li class="googleplus"><a href="https://plus.google.com/share?url=http://chojo.github.io/oop/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+            <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://chojo.github.io/d3js-external-data/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+            <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://chojo.github.io/d3js-external-data/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+            <li class="googleplus"><a href="https://plus.google.com/share?url=http://chojo.github.io/d3js-external-data/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
           </ul>
         </div><!-- /.social-share -->
       </footer>
@@ -154,7 +197,7 @@
     <div class="read-more">
       
         <div class="read-more-header">
-          <a href="http://chojo.github.io/alias/" class="read-more-btn">Read More</a>
+          <a href="http://chojo.github.io" class="read-more-btn">Read More</a>
         </div><!-- /.read-more-header -->
         <div class="read-more-content">
           <h3><a href="http://chojo.github.io/node-grunt-bower-yeoman/" title="Node, Grunt, Bower and Yeoman">Node, Grunt, Bower and Yeoman</a></h3>

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Redis with Rails
-description: "Introduction to Using Redis with Rails"
-modified: 2014-12-22
-tags: [Rails, Redis]
+title: D3.js Data Visualization
+description: "Data Visualization with external Data Sources"
+modified: 2015-02-16
+tags: [D3js]
 image:
   feature: abstract-2.jpg
   credit: dargadgetz

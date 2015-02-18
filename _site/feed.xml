@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://chojo.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://chojo.github.io" />
-<updated>2014-12-22T12:50:34+01:00</updated>
+<updated>2015-02-16T18:30:19+01:00</updated>
 <id>http://chojo.github.io/</id>
 <author>
   <name>Joon Ki Choi</name>
@@ -322,6 +322,69 @@ domain-specific language (DSL) and resembles a natural language specification.&l
 
 
   &lt;p&gt;&lt;a href=&quot;http://chojo.github.io/minitest/&quot;&gt;Minitest&lt;/a&gt; was originally published by Joon Ki Choi at &lt;a href=&quot;http://chojo.github.io&quot;&gt;chojo's Developer Blog&lt;/a&gt; on September 19, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[D3.js Data Visualization]]></title>
+ <link rel="alternate" type="text/html" href="http://chojo.github.io/d3js-external-data/" />
+  <id>http://chojo.github.io/d3js-external-data</id>
+  <updated>2015-02-16T00:00:00-00:00</updated>
+  <published>2014-02-16T00:00:00+01:00</published>
+  
+  <author>
+    <name>Joon Ki Choi</name>
+    <uri>http://chojo.github.io</uri>
+    <email>joon.ch@gmail.com</email>
+  </author>
+  <content type="html">&lt;h3 id=&quot;d3js&quot;&gt;D3.js&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://d3js.org/&quot;&gt;D3.js Homepage&lt;/a&gt; 
+D3.js is a JavaScript library for manipulating documents based on data. D3 helps you bring data to life using HTML, SVG, and CSS. D3’s emphasis on web standards gives you the full capabilities of modern browsers without tying yourself to a proprietary framework, combining powerful visualization components and a data-driven approach to DOM manipulation.&lt;/p&gt;
+
+&lt;h3 id=&quot;external-data-sources&quot;&gt;External Data Sources&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;File based: CSV, TSV, JSON, XML, Text, HTML&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Dynamic: GET, POST, AJAX (xhr)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;working-with-csv-data&quot;&gt;Working with CSV Data&lt;/h3&gt;
+
+&lt;p&gt;MonthlySales.csv&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;month, sales
+20130101, 38
+20130201, 28
+20130301, 18
+20130401, 38
+20130501, 48
+20130601, 68
+20130701, 38
+20130801, 78
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;html&quot;&gt;HTML&lt;/h3&gt;
+
+&lt;p&gt;hello-world.html&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html PUBLIC &amp;quot;-//W3C//DTD XHTML 1.0 Transitional//EN&amp;quot; &amp;quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&amp;quot;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;Myspace&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;I am the international space station&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Sign my guestbook&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://chojo.github.io/d3js-external-data/&quot;&gt;D3.js Data Visualization&lt;/a&gt; was originally published by Joon Ki Choi at &lt;a href=&quot;http://chojo.github.io&quot;&gt;chojo's Developer Blog&lt;/a&gt; on February 16, 2014.&lt;/p&gt;</content>
 </entry>
 
 </feed>

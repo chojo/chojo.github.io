@@ -1,0 +1,6 @@
+<p>Recently i stuck at an error:&#8221;npm ERR! Error: EACCES, mkdir&#8230;&#8221; and after many attempts to fix this bug i decided to install node and npm new. This time without having to sudo: <a href='https://gist.github.com/isaacs/579814'>Node.js installation</a></p>
+
+<p>I use zsh and had to make small modifications for the second one (only-git-all-the-way.sh) :</p>
+<div class='highlight'><pre><code class='ruby'><span class='n'>echo</span> <span class='s1'>&#39;export PATH=$HOME/node/:$PATH&#39;</span> <span class='o'>&gt;&gt;</span> <span class='o'>~</span><span class='sr'>/.zshrc.local</span>
+<span class='sr'>. ~/</span><span class='o'>.</span><span class='n'>zshrc</span><span class='o'>.</span><span class='n'>local</span>
+</code></pre></div>
