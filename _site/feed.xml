@@ -4,13 +4,49 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://chojo.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://chojo.github.io" />
-<updated>2015-02-18T10:51:12+01:00</updated>
+<updated>2015-02-20T14:01:05+01:00</updated>
 <id>http://chojo.github.io/</id>
 <author>
   <name>Joon Ki Choi</name>
   <uri>http://chojo.github.io/</uri>
   <email>joon.ch@gmail.com</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Deployment to Heroku]]></title>
+ <link rel="alternate" type="text/html" href="http://chojo.github.io/heroku/" />
+  <id>http://chojo.github.io/heroku</id>
+  <updated>2015-02-20T00:00:00-00:00</updated>
+  <published>2015-02-20T00:00:00+01:00</published>
+  
+  <author>
+    <name>Joon Ki Choi</name>
+    <uri>http://chojo.github.io</uri>
+    <email>joon.ch@gmail.com</email>
+  </author>
+  <content type="html">&lt;h3 id=&quot;evolving-the-developer-experience-again&quot;&gt;Evolving the Developer Experience. Again.&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.heroku.com&quot;&gt;Heroku Homepage&lt;/a&gt; 
+At Heroku, we believe that great apps come from developers using tools they love. &lt;/p&gt;
+
+&lt;h3 id=&quot;heroku-toolbelt&quot;&gt;Heroku Toolbelt&lt;/h3&gt;
+
+&lt;p&gt;Install the Heroku Toolbelt (for Linux):&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;wget&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;qO&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;toolbelt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;heroku&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;install&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ubuntu&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sh&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sh&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;heroku-deployment&quot;&gt;Heroku Deployment&lt;/h3&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;heroku&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;login&lt;/span&gt;
+
+&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;my&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;project&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;push&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;heroku&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;master&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://chojo.github.io/heroku/&quot;&gt;Deployment to Heroku&lt;/a&gt; was originally published by Joon Ki Choi at &lt;a href=&quot;http://chojo.github.io&quot;&gt;chojo's Development Blog&lt;/a&gt; on February 20, 2015.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>

@@ -37,7 +37,15 @@
         <loc>http://chojo.github.io/page2/index.html</loc>
     </url>
     
+    <url>
+        <loc>http://chojo.github.io/page3/index.html</loc>
+    </url>
+    
 
+    
+    <url>
+        <loc>http://chojo.github.io/heroku/</loc>
+    </url>
     
     <url>
         <loc>http://chojo.github.io/d3js-external-data/</loc>
