@@ -44,6 +44,10 @@
 
     
     <url>
+        <loc>http://chojo.github.io/login/</loc>
+    </url>
+    
+    <url>
         <loc>http://chojo.github.io/heroku/</loc>
     </url>
     
