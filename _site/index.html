@@ -134,6 +134,89 @@
 <article class="hentry">
   <header>
     <div class="entry-meta">
+      <span class="entry-date date published updated"><time datetime="2015-02-27T00:00:00+01:00"><a href="http://chojo.github.io/how-to-write-good-code/">February 27, 2015</a></time></span><span class="author vcard"><span class="fn"><a href="http://chojo.github.io/about/" title="About Joon Ki Choi">Joon Ki Choi</a></span></span>
+      
+      <span class="entry-reading-time pull-right">
+        <i class="fa fa-clock-o"></i>
+        
+        Reading time ~2 minutes
+      </span><!-- /.entry-reading-time -->
+      
+    </div><!-- /.entry-meta -->
+    
+      <h1 class="entry-title"><a href="http://chojo.github.io/how-to-write-good-code/" rel="bookmark" title="The 7 Rules for Writing Software That Won’t Die When You Do" itemprop="url">The 7 Rules for Writing Software That Won’t Die When You Do</a></h1>
+    
+  </header>
+  <div class="entry-content">
+    <h3 id="life-ends-but-software-doesnt-have-to">Life ends. But software doesn’t have to.</h3>
+<p>“Let me be perfectly clear, though. It is only rarely possible to follow all of these rules for any given project. I myself am guilty of not following all of them successfully. But the more rules you follow (read: preach), the longer your software will live. At the end of the day, every byte you write adds to the whole ecosystem, and as engineers, our goal should be to keep the software ecosystem as clean as possible.”</p>
+
+<p>How close can we get to the perfect godlike login experience in Discourse? That’s a noble and worthy goal.
+<a href="https://medium.com/@karan/the-7-rules-for-writing-software-that-wont-die-when-you-do-38ef0a925650">Read the full article on Medium</a> </p>
+
+<h3 id="the-7-rules">The 7 Rules</h3>
+
+<ol>
+  <li>
+    <p>Modularize: 
+Divide up your software across multiple files, or folders, or even projects. Bring all dependencies in one location, follow MVC or some variation.</p>
+  </li>
+  <li>
+    <p>Test: Here’s what will happen when you start testing your code — you’ll start to understand the complexity of your software. You’ll start to learn how to modularize your software into pieces that can be independently tested.</p>
+  </li>
+  <li>
+    <p>Continuous Integration: Continuous Integration (CI) is a development practice that requires developers to integrate code into a shared repository several times a day. Each check-in is then verified by an automated build, allowing teams to detect problems early.</p>
+  </li>
+  <li>Automate common tasks like: 
+    <ul>
+      <li>Automated testing (including creating mock servers and/or data, deleting temp files, etc),</li>
+      <li>Stage code to dev server,</li>
+      <li>Deploy to production.</li>
+    </ul>
+  </li>
+  <li>
+    <p>Redundancy: Use multiple storages for your code like github, bitbucket, dropbox and other mirrors.</p>
+  </li>
+  <li>Commits:
+    <ul>
+      <li>Each commit should have a purpose. Is it fixing a bug, or adding a new feature, or removing an existing feature?</li>
+      <li>Only one change per commit. Commit when you solve issue #127, and only that issue.</li>
+      <li>Include issue number in the commit message.</li>
+      <li>Include a description of the change in commit description. This depends on the project contributing guidelines but usually you mention what was causing the bug, and how you fixed it, and how to test the change.</li>
+      <li>Write sensible commit message: fixed cache being reset on every insert caused by missed access after write. fixes #341</li>
+    </ul>
+  </li>
+  <li>Plan
+    <ul>
+      <li>Have a plan ready for the worst case. What will you do when your traffic skyrockets? Where do you pull backups from when the system is down due to an unknown bug? Who would you call in the middle of the night when your server goes down?</li>
+    </ul>
+  </li>
+</ol>
+
+<ul>
+  <li>
+    <p>Think this through. But don’t overthink it. Then automate steps that can be automated.</p>
+  </li>
+  <li>
+    <p>Now document it all. In detail. Make it so anyone acquiring your code also has the plan ready.</p>
+  </li>
+  <li>
+    <p>Not only will having a plan make you seem smarter, it will actually make you smarter.</p>
+  </li>
+</ul>
+
+<p>End.</p>
+
+<p>There’s always a relevant xkcd: http://xkcd.com/844/</p>
+
+<p><img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*ldXJND38N7PUecQ-n6_qWQ.png" alt="flowchart of writing good code" /></p>
+
+  </div><!-- /.entry-content -->
+</article><!-- /.hentry -->
+
+<article class="hentry">
+  <header>
+    <div class="entry-meta">
       <span class="entry-date date published updated"><time datetime="2015-02-24T00:00:00+01:00"><a href="http://chojo.github.io/login/">February 24, 2015</a></time></span><span class="author vcard"><span class="fn"><a href="http://chojo.github.io/about/" title="About Joon Ki Choi">Joon Ki Choi</a></span></span>
       
       <span class="entry-reading-time pull-right">
@@ -149,6 +232,8 @@
   </header>
   <div class="entry-content">
     <h3 id="rethinking-the-perfect-login-dialog">Rethinking the perfect Login-Dialog</h3>
+<p>Great Article about the state of the art in Login Dialogs:</p>
+
 <p>How close can we get to the perfect godlike login experience in Discourse? That’s a noble and worthy goal.
 <a href="http://discourse.codinghorror.com/t/the-god-login/2924">Read the article on codinghorror</a> </p>
 
@@ -323,38 +408,6 @@ D3.js is a JavaScript library for manipulating documents based on data. D3 helps
     <p>Great Tutorial for installing and configuring Node, Grunt, Bower and Yeoman:</p>
 
 <p><a href="http://juristr.com/blog/2014/08/node-grunt-yeoman-bower/">Node, Grunt, Bower and Yeoman</a> </p>
-
-
-  </div><!-- /.entry-content -->
-</article><!-- /.hentry -->
-
-<article class="hentry">
-  <header>
-    <div class="entry-meta">
-      <span class="entry-date date published updated"><time datetime="2014-12-19T00:00:00+01:00"><a href="http://chojo.github.io/install-node/">December 19, 2014</a></time></span><span class="author vcard"><span class="fn"><a href="http://chojo.github.io/about/" title="About Joon Ki Choi">Joon Ki Choi</a></span></span>
-      
-      <span class="entry-reading-time pull-right">
-        <i class="fa fa-clock-o"></i>
-        
-        Reading time ~1 minute
-      </span><!-- /.entry-reading-time -->
-      
-    </div><!-- /.entry-meta -->
-    
-      <h1 class="entry-title"><a href="http://chojo.github.io/install-node/" rel="bookmark" title="Install Node and NPM without sudo" itemprop="url">Install Node and NPM without sudo</a></h1>
-    
-  </header>
-  <div class="entry-content">
-    <p>Recently i stuck at an error:”npm ERR! Error: EACCES, mkdir…” and after many
-attempts to fix this bug i decided to install node and npm new. This time
-without having to sudo:
-<a href="https://gist.github.com/isaacs/579814">Node.js installation</a> </p>
-
-<p>I use zsh and had to make small modifications for the second one (only-git-all-the-way.sh) :</p>
-
-<div class="highlight"><pre><code class="ruby"><span class="n">echo</span> <span class="s1">&#39;export PATH=$HOME/node/:$PATH&#39;</span> <span class="o">&gt;&gt;</span> <span class="o">~</span><span class="sr">/.zshrc.local</span>
-<span class="sr">. ~/</span><span class="o">.</span><span class="n">zshrc</span><span class="o">.</span><span class="n">local</span>
-</code></pre></div>
 
 
   </div><!-- /.entry-content -->

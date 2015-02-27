@@ -4,13 +4,92 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://chojo.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://chojo.github.io" />
-<updated>2015-02-24T09:49:34+01:00</updated>
+<updated>2015-02-27T16:52:13+01:00</updated>
 <id>http://chojo.github.io/</id>
 <author>
   <name>Joon Ki Choi</name>
   <uri>http://chojo.github.io/</uri>
   <email>joon.ch@gmail.com</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[The 7 Rules for Writing Software That Won’t Die When You Do]]></title>
+ <link rel="alternate" type="text/html" href="http://chojo.github.io/how-to-write-good-code/" />
+  <id>http://chojo.github.io/how-to-write-good-code</id>
+  <updated>2015-02-24T00:00:00-00:00</updated>
+  <published>2015-02-27T00:00:00+01:00</published>
+  
+  <author>
+    <name>Joon Ki Choi</name>
+    <uri>http://chojo.github.io</uri>
+    <email>joon.ch@gmail.com</email>
+  </author>
+  <content type="html">&lt;h3 id=&quot;life-ends-but-software-doesnt-have-to&quot;&gt;Life ends. But software doesn’t have to.&lt;/h3&gt;
+&lt;p&gt;“Let me be perfectly clear, though. It is only rarely possible to follow all of these rules for any given project. I myself am guilty of not following all of them successfully. But the more rules you follow (read: preach), the longer your software will live. At the end of the day, every byte you write adds to the whole ecosystem, and as engineers, our goal should be to keep the software ecosystem as clean as possible.”&lt;/p&gt;
+
+&lt;p&gt;How close can we get to the perfect godlike login experience in Discourse? That’s a noble and worthy goal.
+&lt;a href=&quot;https://medium.com/@karan/the-7-rules-for-writing-software-that-wont-die-when-you-do-38ef0a925650&quot;&gt;Read the full article on Medium&lt;/a&gt; &lt;/p&gt;
+
+&lt;h3 id=&quot;the-7-rules&quot;&gt;The 7 Rules&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Modularize: 
+Divide up your software across multiple files, or folders, or even projects. Bring all dependencies in one location, follow MVC or some variation.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Test: Here’s what will happen when you start testing your code — you’ll start to understand the complexity of your software. You’ll start to learn how to modularize your software into pieces that can be independently tested.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Continuous Integration: Continuous Integration (CI) is a development practice that requires developers to integrate code into a shared repository several times a day. Each check-in is then verified by an automated build, allowing teams to detect problems early.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Automate common tasks like: 
+    &lt;ul&gt;
+      &lt;li&gt;Automated testing (including creating mock servers and/or data, deleting temp files, etc),&lt;/li&gt;
+      &lt;li&gt;Stage code to dev server,&lt;/li&gt;
+      &lt;li&gt;Deploy to production.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Redundancy: Use multiple storages for your code like github, bitbucket, dropbox and other mirrors.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Commits:
+    &lt;ul&gt;
+      &lt;li&gt;Each commit should have a purpose. Is it fixing a bug, or adding a new feature, or removing an existing feature?&lt;/li&gt;
+      &lt;li&gt;Only one change per commit. Commit when you solve issue #127, and only that issue.&lt;/li&gt;
+      &lt;li&gt;Include issue number in the commit message.&lt;/li&gt;
+      &lt;li&gt;Include a description of the change in commit description. This depends on the project contributing guidelines but usually you mention what was causing the bug, and how you fixed it, and how to test the change.&lt;/li&gt;
+      &lt;li&gt;Write sensible commit message: fixed cache being reset on every insert caused by missed access after write. fixes #341&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Plan
+    &lt;ul&gt;
+      &lt;li&gt;Have a plan ready for the worst case. What will you do when your traffic skyrockets? Where do you pull backups from when the system is down due to an unknown bug? Who would you call in the middle of the night when your server goes down?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Think this through. But don’t overthink it. Then automate steps that can be automated.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Now document it all. In detail. Make it so anyone acquiring your code also has the plan ready.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Not only will having a plan make you seem smarter, it will actually make you smarter.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;End.&lt;/p&gt;
+
+&lt;p&gt;There’s always a relevant xkcd: http://xkcd.com/844/&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/800/1*ldXJND38N7PUecQ-n6_qWQ.png&quot; alt=&quot;flowchart of writing good code&quot; /&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://chojo.github.io/how-to-write-good-code/&quot;&gt;The 7 Rules for Writing Software That Won’t Die When You Do&lt;/a&gt; was originally published by Joon Ki Choi at &lt;a href=&quot;http://chojo.github.io&quot;&gt;chojo's Development Blog&lt;/a&gt; on February 27, 2015.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
@@ -26,6 +105,8 @@
     <email>joon.ch@gmail.com</email>
   </author>
   <content type="html">&lt;h3 id=&quot;rethinking-the-perfect-login-dialog&quot;&gt;Rethinking the perfect Login-Dialog&lt;/h3&gt;
+&lt;p&gt;Great Article about the state of the art in Login Dialogs:&lt;/p&gt;
+
 &lt;p&gt;How close can we get to the perfect godlike login experience in Discourse? That’s a noble and worthy goal.
 &lt;a href=&quot;http://discourse.codinghorror.com/t/the-god-login/2924&quot;&gt;Read the article on codinghorror&lt;/a&gt; &lt;/p&gt;
 
