@@ -14,10 +14,6 @@ share: true
 ### Life ends. But software doesn’t have to.
 "Let me be perfectly clear, though. It is only rarely possible to follow all of these rules for any given project. I myself am guilty of not following all of them successfully. But the more rules you follow (read: preach), the longer your software will live. At the end of the day, every byte you write adds to the whole ecosystem, and as engineers, our goal should be to keep the software ecosystem as clean as possible."
 
-How close can we get to the perfect godlike login experience in Discourse? That's a noble and worthy goal.
-[Read the full article on Medium](https://medium.com/@karan/the-7-rules-for-writing-software-that-wont-die-when-you-do-38ef0a925650) 
-
-
 ### The 7 Rules
 
 1. Modularize: 
@@ -52,6 +48,6 @@ Divide up your software across multiple files, or folders, or even projects. Bri
   
 End.
 
-  There’s always a relevant xkcd: http://xkcd.com/844/
+  There’s always a relevant xkcd: (http://xkcd.com/844/)
 
 ![flowchart of writing good code](https://d262ilb51hltx0.cloudfront.net/max/800/1*ldXJND38N7PUecQ-n6_qWQ.png)
