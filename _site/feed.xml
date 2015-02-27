@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://chojo.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://chojo.github.io" />
-<updated>2015-02-27T16:52:13+01:00</updated>
+<updated>2015-02-27T16:57:57+01:00</updated>
 <id>http://chojo.github.io/</id>
 <author>
   <name>Joon Ki Choi</name>
@@ -27,9 +27,6 @@
   </author>
   <content type="html">&lt;h3 id=&quot;life-ends-but-software-doesnt-have-to&quot;&gt;Life ends. But software doesn’t have to.&lt;/h3&gt;
 &lt;p&gt;“Let me be perfectly clear, though. It is only rarely possible to follow all of these rules for any given project. I myself am guilty of not following all of them successfully. But the more rules you follow (read: preach), the longer your software will live. At the end of the day, every byte you write adds to the whole ecosystem, and as engineers, our goal should be to keep the software ecosystem as clean as possible.”&lt;/p&gt;
-
-&lt;p&gt;How close can we get to the perfect godlike login experience in Discourse? That’s a noble and worthy goal.
-&lt;a href=&quot;https://medium.com/@karan/the-7-rules-for-writing-software-that-wont-die-when-you-do-38ef0a925650&quot;&gt;Read the full article on Medium&lt;/a&gt; &lt;/p&gt;
 
 &lt;h3 id=&quot;the-7-rules&quot;&gt;The 7 Rules&lt;/h3&gt;
 
@@ -84,7 +81,7 @@ Divide up your software across multiple files, or folders, or even projects. Bri
 
 &lt;p&gt;End.&lt;/p&gt;
 
-&lt;p&gt;There’s always a relevant xkcd: http://xkcd.com/844/&lt;/p&gt;
+&lt;p&gt;There’s always a relevant xkcd: (http://xkcd.com/844/)&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/800/1*ldXJND38N7PUecQ-n6_qWQ.png&quot; alt=&quot;flowchart of writing good code&quot; /&gt;&lt;/p&gt;
 
