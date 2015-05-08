@@ -6,23 +6,7 @@
     
     
     <url>
-        <loc>http://chojo.github.io/tags/</loc>
-    </url>
-    
-    <url>
         <loc>http://chojo.github.io/404.html</loc>
-    </url>
-    
-    <url>
-        <loc>http://chojo.github.io/posts/</loc>
-    </url>
-    
-    <url>
-        <loc>http://chojo.github.io/index.html</loc>
-    </url>
-    
-    <url>
-        <loc>http://chojo.github.io/sitemap.xml</loc>
     </url>
     
     <url>
@@ -34,6 +18,22 @@
     </url>
     
     <url>
+        <loc>http://chojo.github.io/index.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://chojo.github.io/posts/</loc>
+    </url>
+    
+    <url>
+        <loc>http://chojo.github.io/sitemap.xml</loc>
+    </url>
+    
+    <url>
+        <loc>http://chojo.github.io/tags/</loc>
+    </url>
+    
+    <url>
         <loc>http://chojo.github.io/page2/index.html</loc>
     </url>
     
@@ -42,6 +42,10 @@
     </url>
     
 
+    
+    <url>
+        <loc>http://chojo.github.io/angular-vs-react/</loc>
+    </url>
     
     <url>
         <loc>http://chojo.github.io/how-to-write-good-code/</loc>
